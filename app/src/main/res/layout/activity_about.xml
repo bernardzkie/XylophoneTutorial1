@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".about"
+
+
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@color/colorPrimary"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="#FFEE84"
+            android:fontFamily="serif-monospace"
+            android:text="Developers"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp"
+        android:layout_gravity="center_vertical"
+        android:orientation="vertical">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_gravity="center"
+    android:layout_height="wrap_content"
+    android:textAlignment="center"
+    android:text="Guevarra, Gian Rey N."
+    android:textColor="#F2f2f2"
+    android:textSize="23dp"
+    android:layout_marginTop="3dp"
+    android:fontFamily="serif-monospace"/>
+    <TextView
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Maragana, Reynaldo S."
+        android:layout_marginTop="3dp"
+        android:textColor="#F2f2f2"
+
+        android:textSize="23dp"
+        android:fontFamily="serif-monospace"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:text="Quizon Jr, Bernard M."
+        android:textColor="#F2f2f2"
+        android:layout_marginTop="3dp"
+        android:textSize="23dp"
+        android:fontFamily="serif-monospace"/>
+    <TextView
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Salinas, Tyrone S."
+        android:textColor="#F2f2f2"
+        android:layout_marginTop="3dp"
+        android:textSize="23dp"
+        android:fontFamily="serif-monospace"/>
+
+
+        <TextView
+            android:layout_marginTop="80dp"
+            android:layout_gravity="right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="- Thesis 2\n  S.Y 2019-2020 "
+            android:textColor="#F2f2f2"
+            android:textSize="20dp"
+            android:fontFamily="serif-monospace"/>
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_gravity="right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="- Adviser \n  Edmund Almazan"
+            android:textColor="#F2f2f2"
+            android:textSize="20dp"
+            android:fontFamily="serif-monospace"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>

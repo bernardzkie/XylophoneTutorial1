@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".easyadd">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+
+        android:background="@color/colorPrimary">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <ImageButton
+                android:id="@+id/backsnormal"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="right"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@mipmap/back" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center_vertical"
+            >
+            <TextView
+                android:layout_width="400dp"
+
+                android:layout_gravity="center"
+                android:layout_height="30dp"
+                android:text="Import Music Notes"
+                android:textSize="25dp"
+                android:fontFamily="serif-monospace"
+                android:textAlignment="center"
+                android:textColor="#FFEE84"
+                />
+            <EditText
+
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textColor="#F2F2F2"
+                android:fontFamily="serif-monospace"
+                android:hint="Tittle"
+                android:textAlignment="center"
+                android:id="@+id/tittlenormal"
+                android:layout_gravity="center_horizontal"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_marginTop="30dp"
+                android:layout_height="wrap_content"
+                android:textColor="#F2F2F2"
+                android:hint="Notes"
+                android:fontFamily="serif-monospace"
+                android:textAlignment="center"
+                android:id="@+id/notesnormal"
+
+                android:layout_gravity="center_horizontal"/>
+
+            <Button
+                android:layout_marginTop="10dp"
+
+                android:layout_width="200dp"
+                android:layout_height="30dp"
+                android:text="SAVED"
+                android:id="@+id/savenormal"
+                android:textStyle="bold"
+                android:textColor="#FFEE84"
+                android:layout_gravity="center"
+                android:textSize="20dp"
+                android:background="@drawable/round"
+                android:fontFamily="serif-monospace"/>
+        </LinearLayout>
+    </LinearLayout>
+    />
+
+
+</LinearLayout>

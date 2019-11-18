@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".easy_chooser">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+
+        android:paddingRight="8dp">
+        <ImageButton
+            android:id="@+id/easyhome"
+            android:layout_width="47dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="20dp"
+            android:background="@mipmap/home"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="EASY MODE"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#FFEE84"
+            android:textSize="30dp"
+            android:fontFamily="serif-monospace"
+            android:paddingBottom="1dp"
+
+
+
+
+            />
+
+
+
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:gravity="center"
+
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+
+        >
+
+    <ImageButton
+        android:layout_width="130dp"
+        android:layout_marginTop="20dp"
+        android:layout_height="130dp"
+        android:id="@+id/star"
+        android:background="@mipmap/star"
+
+        />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:fontFamily="serif-monospace"
+
+            android:textColor="#F2F2F2"
+
+            android:text=" Twinkle Twinkle\n   Little Star"/>
+    <ImageButton
+        android:layout_width="130dp"
+        android:layout_marginTop="20dp"
+        android:layout_height="130dp"
+        android:id="@+id/incywincy"
+        android:background="@mipmap/incywincy"
+/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:fontFamily="serif-monospace"
+
+            android:textColor="#F2F2F2"
+
+            android:text="    Incy Wincy \n      Spider"/>
+
+        <ImageButton
+            android:layout_width="130dp"
+            android:layout_marginTop="20dp"
+            android:layout_height="130dp"
+            android:id="@+id/silent"
+            android:background="@mipmap/silent"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:fontFamily="serif-monospace"
+
+            android:textColor="#F2F2F2"
+
+            android:text="   Silent Night"/>
+
+        />
+
+
+
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="15dp">
+
+        <ImageButton
+            android:layout_width="130dp"
+            android:layout_marginTop="20dp"
+            android:layout_height="130dp"
+            android:id="@+id/happybirthday"
+            android:background="@mipmap/happybirthday"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:fontFamily="serif-monospace"
+
+            android:textColor="#F2F2F2"
+
+            android:text="      Happy \n     Birthday"/>
+        <ImageButton
+            android:layout_width="130dp"
+            android:layout_marginTop="20dp"
+            android:layout_height="130dp"
+            android:id="@+id/sheepbaba"
+            android:background="@mipmap/sheepbaba"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:fontFamily="serif-monospace"
+
+            android:textColor="#F2F2F2"
+
+            android:text=" Baa Baa Black\n     Sheep"/>
+        <ImageButton
+            android:layout_width="130dp"
+            android:layout_marginTop="20dp"
+            android:layout_height="130dp"
+            android:id="@+id/jinglebells"
+            android:background="@mipmap/jinglebells"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:fontFamily="serif-monospace"
+
+            android:textColor="#F2F2F2"
+
+            android:text=" Jingle Bells"/>
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
+    </ScrollView>
+</LinearLayout>

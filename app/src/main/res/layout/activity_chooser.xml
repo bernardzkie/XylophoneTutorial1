@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="match_parent"
+    tools:context=".chooser"
+    >
+
+<LinearLayout
+
+    android:orientation="vertical"
+    android:layout_gravity="center_vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:text="Test Note"
+        android:id="@+id/test"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"
+        android:textColor="#FFEE84"
+        android:textSize="20dp"
+        android:background="@drawable/round"
+        android:fontFamily="serif-monospace"/>
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:text="EASY"
+        android:id="@+id/easy"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"
+        android:textColor="#FFEE84"
+        android:textSize="20dp"
+        android:background="@drawable/round"
+        android:fontFamily="serif-monospace"/>
+    <Button
+        android:layout_marginTop="20dp"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center_horizontal"
+        android:text="NORMAL"
+        android:id="@+id/normal"
+        android:textStyle="bold"
+        android:textColor="#FFEE84"
+        android:textSize="20dp"
+        android:background="@drawable/round"
+        android:fontFamily="serif-monospace"/>
+    <Button
+        android:layout_marginTop="20dp"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:text="hard"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/hard"
+        android:textStyle="bold"
+        android:textColor="#FFEE84"
+        android:textSize="20dp"
+        android:fontFamily="serif-monospace"
+        android:background="@drawable/round"
+        />
+
+</LinearLayout>
+
+</LinearLayout>

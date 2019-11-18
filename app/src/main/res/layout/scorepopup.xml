@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="300dp"
+    android:layout_height="410dp"
+    android:layout_gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/congrats"
+
+
+            />
+        <TextView
+            android:layout_marginTop="10dp"
+            android:id="@+id/tittleofthesong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:text="tittle"
+            android:fontFamily="serif-monospace"
+            android:textStyle="bold"
+            android:textSize="15dp"
+
+            />
+
+
+        <TextView
+
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:id="@+id/status"
+            android:text="status"
+            android:fontFamily="serif-monospace"
+            android:textStyle="bold"
+            android:textSize="25dp"
+
+
+
+
+
+
+            />
+
+
+        <TextView
+
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:id="@+id/percentage"
+            android:text="100%"
+            android:fontFamily="serif-monospace"
+            android:textStyle="bold"
+            android:textSize="30dp"
+
+
+
+
+
+
+            />
+
+
+
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginTop="15dp"
+    android:layout_gravity="center">
+
+
+
+    <ImageView
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:background="@mipmap/starprogress"
+        android:id="@+id/star1"
+        />
+
+    <ImageView
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:background="@mipmap/starprogress"
+        android:id="@+id/star2"
+        />
+    <ImageView
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:background="@mipmap/starprogress"
+        android:id="@+id/star3"
+        />
+    <ImageView
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:background="@mipmap/starprogress"
+        android:id="@+id/star4"
+        />
+    <ImageView
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:background="@mipmap/starprogress"
+        android:id="@+id/star5"
+        />
+
+
+</LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+android:gravity="center_horizontal"    >
+
+    <Button
+        android:layout_width="170dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/backstoke"
+        android:text=">"
+        android:textAlignment="center"
+
+        android:textColor="#f2f2f2"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:id="@+id/next"
+
+        />
+</LinearLayout>
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>

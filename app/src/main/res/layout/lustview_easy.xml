@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e8c796"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:background="#e8c796">
+
+        android:orientation="vertical"
+    <TextView
+        android:id="@+id/listing"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif-monospace"
+        android:paddingTop="2dp"
+        android:paddingBottom="3dp"
+        android:text="sample"
+        android:textAlignment="textStart"
+        android:textColor="#000"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    </LinearLayout>
+
+</LinearLayout>

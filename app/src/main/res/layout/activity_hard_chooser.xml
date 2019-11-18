@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".easy_chooser">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+
+        android:paddingRight="8dp">
+        <ImageButton
+            android:id="@+id/hardhome"
+            android:layout_width="47dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="20dp"
+            android:background="@mipmap/home"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="HARD MODE"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#FFEE84"
+            android:textSize="30dp"
+            android:fontFamily="serif-monospace"
+            android:paddingBottom="1dp"
+
+
+
+
+            />
+
+
+
+
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+
+            >
+
+            <ImageButton
+                android:layout_width="130dp"
+                android:layout_marginTop="20dp"
+                android:layout_height="130dp"
+                android:id="@+id/daysofchristmas"
+                android:background="@mipmap/hard_12daysofchristmas"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:fontFamily="serif-monospace"
+
+                android:textColor="#F2F2F2"
+
+                android:text="   12 Days of\n   Christmas"/>
+            <ImageButton
+                android:layout_width="130dp"
+                android:layout_marginTop="20dp"
+                android:layout_height="130dp"
+                android:id="@+id/angpaskoaysumapit"
+                android:background="@mipmap/hard_ang_pasko_ay_sumapit"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:fontFamily="serif-monospace"
+
+                android:textColor="#F2F2F2"
+
+                android:text="  Ang Pasko ay\n    Sumapit"/>
+
+            <ImageButton
+                android:layout_width="130dp"
+                android:layout_marginTop="20dp"
+                android:layout_height="130dp"
+                android:id="@+id/ikaw"
+                android:background="@mipmap/hard_ikaw"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:fontFamily="serif-monospace"
+
+                android:textColor="#F2F2F2"
+
+                android:text="  \t \t ikaw"/>
+
+            />
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="15dp">
+
+            <ImageButton
+                android:layout_width="130dp"
+                android:layout_marginTop="20dp"
+                android:layout_height="130dp"
+                android:id="@+id/isntsheloveby"
+                android:background="@mipmap/hard_isnt_she_loveby"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:fontFamily="serif-monospace"
+
+                android:textColor="#F2F2F2"
+
+                android:text="   Isn't She \n    Love by"/>
+            <ImageButton
+                android:layout_width="130dp"
+                android:layout_marginTop="20dp"
+                android:layout_height="130dp"
+                android:id="@+id/paroparongbukid"
+                android:background="@mipmap/hard_paro_parong_bukid"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:fontFamily="serif-monospace"
+
+                android:textColor="#F2F2F2"
+
+                android:text="   Paro parong \n     Bukid"/>
+            <ImageButton
+                android:layout_width="130dp"
+                android:layout_marginTop="20dp"
+                android:layout_height="130dp"
+                android:id="@+id/sunshine"
+                android:background="@mipmap/hard_sunshine"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:fontFamily="serif-monospace"
+
+                android:textColor="#F2F2F2"
+
+                android:text="    Sunshine"/>
+
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>

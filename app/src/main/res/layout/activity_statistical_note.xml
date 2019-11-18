@@ -1,0 +1,709 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".easy_format_songs">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageButton
+
+                android:id="@+id/strt_record"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@mipmap/start_rec" />
+
+
+
+            <ImageButton
+                android:id="@+id/ply_record"
+
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:background="@mipmap/play_rec" />
+
+
+        </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+        <LinearLayout
+            android:paddingTop="35dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/notepatern"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:background="@drawable/bilog"
+                android:fontFamily="serif-monospace"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:textColor="@color/design_default_color_primary_dark"
+                android:textSize="70dp"
+
+
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="103dp"
+                android:layout_marginTop="55dp"
+
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp">
+
+                    <TextView
+
+                        android:id="@+id/Asharp5"
+                        android:layout_width="20dp"
+                        android:layout_height="88dp"
+                        android:layout_gravity="bottom"
+                        android:layout_marginRight="3dp"
+                        android:background="@drawable/bilog"
+                        android:gravity="center"
+                        android:text="A#\n5"
+                        android:textAlignment="center"
+                        android:textColor="#000000"
+
+                        />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="23dp"
+                    android:layout_marginTop="11dp">
+
+                    <TextView
+
+                        android:id="@+id/Csharp6"
+
+                        android:layout_width="20dp"
+                        android:layout_height="82dp"
+                        android:layout_gravity="bottom"
+                        android:layout_marginRight="3dp"
+                        android:background="@drawable/bilog"
+                        android:gravity="center"
+                        android:text="C#\n6"
+                        android:textAlignment="center"
+                        android:textColor="#000000"
+
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="17dp">
+
+                    <TextView
+
+                        android:id="@+id/Dsharp6"
+                        android:layout_width="20dp"
+                        android:layout_height="76dp"
+                        android:layout_gravity="bottom"
+                        android:layout_marginRight="3dp"
+                        android:background="@drawable/bilog"
+
+
+                        android:gravity="center"
+                        android:text="D#\n6"
+                        android:textAlignment="center"
+                        android:textColor="#000000"
+
+                        />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="23dp"
+                    android:layout_marginTop="23dp">
+
+                    <TextView
+
+                        android:id="@+id/Fsharp6"
+
+                        android:layout_width="20dp"
+                        android:layout_height="70dp"
+                        android:layout_gravity="bottom"
+                        android:layout_marginRight="3dp"
+                        android:background="@drawable/bilog"
+                        android:gravity="center"
+                        android:text="F#\n6"
+                        android:textAlignment="center"
+                        android:textColor="#000000"
+
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="26dp">
+
+                    <TextView
+
+                        android:id="@+id/Gsharp6"
+
+                        android:layout_width="20dp"
+                        android:layout_height="67dp"
+                        android:layout_gravity="bottom"
+                        android:layout_marginRight="3dp"
+                        android:background="@drawable/bilog"
+                        android:gravity="center"
+                        android:text="G#\n6"
+                        android:textAlignment="center"
+                        android:textColor="#000000"
+
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="29dp">
+
+                    <TextView
+
+                        android:id="@+id/Asharp6"
+                        android:layout_width="20dp"
+                        android:layout_height="64dp"
+                        android:layout_gravity="bottom"
+                        android:layout_marginRight="3dp"
+
+                        android:background="@drawable/bilog"
+                        android:gravity="center"
+                        android:text="A#\n6"
+                        android:textAlignment="center"
+                        android:textColor="#000000"
+
+                        />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="23dp"
+                    android:layout_marginTop="38dp">
+
+                    <TextView
+
+                        android:id="@+id/Csharp7"
+                        android:layout_width="21dp"
+
+                        android:layout_height="55dp"
+
+                        android:layout_gravity="bottom"
+                        android:layout_marginRight="3dp"
+                        android:background="@drawable/bilog"
+
+                        android:gravity="center"
+                        android:text="C#\n7"
+                        android:textAlignment="center"
+                        android:textColor="#000000"
+
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="41dp">
+
+                    <TextView
+
+                        android:id="@+id/Dsharp7"
+
+                        android:layout_width="20dp"
+                        android:layout_height="52dp"
+
+                        android:layout_gravity="bottom"
+
+                        android:layout_marginRight="3dp"
+                        android:background="@drawable/bilog"
+
+                        android:gravity="center"
+                        android:text="D#\n7"
+                        android:textAlignment="center"
+                        android:textColor="#000000"
+
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="23dp"
+                    android:layout_marginTop="44dp">
+
+                    <TextView
+
+                        android:id="@+id/Fsharp7"
+
+                        android:layout_width="20dp"
+                        android:layout_height="49dp"
+                        android:layout_gravity="bottom"
+
+                        android:layout_marginRight="3dp"
+
+                        android:background="@drawable/bilog"
+                        android:gravity="center"
+                        android:text="F#\n7"
+                        android:textAlignment="center"
+                        android:textColor="#000000"
+
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="47dp">
+
+                    <TextView
+
+                        android:id="@+id/Gsharp7"
+                        android:layout_width="20dp"
+                        android:layout_height="46dp"
+                        android:layout_gravity="bottom"
+                        android:layout_marginRight="3dp"
+
+                        android:background="@drawable/bilog"
+
+                        android:gravity="center"
+                        android:text="G#\n7"
+                        android:textAlignment="center"
+                        android:textColor="#000000"
+
+                        />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+
+                        android:id="@+id/A5"
+
+                        android:layout_width="20dp"
+                        android:layout_height="88dp"
+                        android:layout_gravity="bottom"
+                        android:layout_marginRight="3dp"
+
+                        android:background="@drawable/bilog"
+
+                        android:gravity="center"
+                        android:text="A\n5"
+                        android:textAlignment="center"
+                        android:textColor="#000000"
+
+                        />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    >
+
+                    <TextView
+
+                        android:id="@+id/B5"
+                        android:layout_width="20dp"
+                        android:layout_height="85dp"
+                        android:layout_gravity="bottom"
+                        android:layout_marginRight="3dp"
+
+                        android:background="@drawable/bilog"
+
+
+                        android:gravity="center"
+                        android:text="B\n5"
+                        android:textAlignment="center"
+                        android:textColor="#000000"
+
+                        />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    >
+
+                    <TextView
+
+                        android:id="@+id/C6"
+                        android:layout_width="20dp"
+
+                        android:layout_height="82dp"
+
+                        android:layout_gravity="bottom"
+                        android:layout_marginRight="3dp"
+                        android:background="@drawable/bilog"
+
+
+                        android:gravity="center"
+                        android:text="C\n6"
+                        android:textAlignment="center"
+                        android:textColor="#000000"
+
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    >
+
+                    <TextView
+
+                        android:id="@+id/D6"
+                        android:layout_width="20dp"
+                        android:layout_height="76dp"
+                        android:layout_gravity="bottom"
+                        android:layout_marginRight="3dp"
+
+                        android:background="@drawable/bilog"
+
+
+                        android:gravity="center"
+                        android:text="D\n6"
+                        android:textAlignment="center"
+                        android:textColor="#000000"
+
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+
+                        android:id="@+id/E6"
+
+                        android:layout_width="20dp"
+                        android:layout_height="73dp"
+                        android:layout_gravity="bottom"
+                        android:layout_marginRight="3dp"
+
+                        android:background="@drawable/bilog"
+
+                        android:gravity="center"
+                        android:text="E\n6"
+                        android:textAlignment="center"
+                        android:textColor="#000000"
+
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    >
+
+                    <TextView
+
+                        android:id="@+id/F6"
+                        android:layout_width="20dp"
+                        android:layout_height="70dp"
+                        android:layout_gravity="bottom"
+                        android:layout_marginRight="3dp"
+
+                        android:background="@drawable/bilog"
+
+
+                        android:gravity="center"
+                        android:text="F\n6"
+                        android:textAlignment="center"
+                        android:textColor="#000000"
+
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+
+                        android:id="@+id/G6"
+
+                        android:layout_width="20dp"
+                        android:layout_height="67dp"
+                        android:layout_gravity="bottom"
+                        android:layout_marginRight="3dp"
+
+                        android:background="@drawable/bilog"
+
+                        android:gravity="center"
+                        android:text="G\n6"
+                        android:textAlignment="center"
+                        android:textColor="#000000"
+
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    >
+
+                    <TextView
+
+                        android:id="@+id/A6"
+                        android:layout_width="20dp"
+                        android:layout_height="64dp"
+                        android:layout_gravity="bottom"
+                        android:layout_marginRight="3dp"
+
+                        android:background="@drawable/bilog"
+
+
+                        android:gravity="center"
+                        android:text="A\n6"
+                        android:textAlignment="center"
+                        android:textColor="#000000"
+
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+
+                        android:id="@+id/B6"
+                        android:layout_width="20dp"
+
+                        android:layout_height="61dp"
+
+                        android:layout_gravity="bottom"
+                        android:layout_marginRight="3dp"
+                        android:background="@drawable/bilog"
+
+
+                        android:gravity="center"
+                        android:text="B\n6"
+                        android:textAlignment="center"
+                        android:textColor="#000000"
+
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    >
+
+                    <TextView
+
+                        android:id="@+id/C7"
+                        android:layout_width="20dp"
+                        android:layout_height="58dp"
+                        android:layout_gravity="bottom"
+                        android:layout_marginRight="3dp"
+
+                        android:background="@drawable/bilog"
+
+
+                        android:gravity="center"
+                        android:text="C\n7"
+                        android:textAlignment="center"
+                        android:textColor="#000000"
+
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    >
+
+                    <TextView
+
+                        android:id="@+id/D7"
+                        android:layout_width="21dp"
+
+                        android:layout_height="55dp"
+
+                        android:layout_gravity="bottom"
+                        android:layout_marginRight="3dp"
+                        android:background="@drawable/bilog"
+
+
+                        android:gravity="center"
+                        android:text="D\n7"
+                        android:textAlignment="center"
+                        android:textColor="#000000"
+
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    >
+
+                    <TextView
+
+                        android:id="@+id/E7"
+
+                        android:layout_width="20dp"
+
+                        android:layout_height="52dp"
+
+                        android:layout_gravity="bottom"
+                        android:layout_marginRight="3dp"
+                        android:background="@drawable/bilog"
+
+                        android:gravity="center"
+                        android:text="E\n7"
+                        android:textAlignment="center"
+                        android:textColor="#000000"
+
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    >
+
+                    <TextView
+
+                        android:id="@+id/F7"
+
+                        android:layout_width="20dp"
+
+                        android:layout_height="49dp"
+
+                        android:layout_gravity="bottom"
+                        android:layout_marginRight="3dp"
+                        android:background="@drawable/bilog"
+
+                        android:gravity="center"
+                        android:text="F\n7"
+                        android:textAlignment="center"
+                        android:textColor="#000000"
+
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    >
+
+                    <TextView
+
+                        android:id="@+id/G7"
+                        android:layout_width="20dp"
+
+                        android:layout_height="46dp"
+
+                        android:layout_gravity="bottom"
+                        android:layout_marginRight="3dp"
+                        android:background="@drawable/bilog"
+
+
+                        android:gravity="center"
+                        android:text="G\n7"
+                        android:textAlignment="center"
+                        android:textColor="#000000"
+
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    >
+
+                    <TextView
+
+                        android:id="@+id/A7"
+                        android:layout_width="20dp"
+                        android:layout_height="43dp"
+                        android:layout_gravity="bottom"
+                        android:layout_marginRight="3dp"
+
+                        android:background="@drawable/bilog"
+                        android:gravity="center"
+                        android:text="A\n7"
+                        android:textAlignment="center"
+                        android:textColor="#000000"
+
+                        />
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

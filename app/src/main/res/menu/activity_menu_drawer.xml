@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+
+
+
+
+        <item
+            android:id="@+id/nav_History"
+            android:icon="@mipmap/history"
+            android:textColor="#FFEE84"
+            android:fontFamily="serif-monospace"
+
+            android:title="History" />
+
+        <item
+            android:id="@+id/nav_Composed"
+            android:title="Compose"
+            android:icon="@mipmap/stat"/>
+        <item
+            android:id="@+id/nav_Songlist"
+            android:icon="@mipmap/songlist"
+            android:title="Song List" />
+
+
+
+
+        <item
+            android:id="@+id/nav_About"
+            android:icon="@mipmap/about"
+            android:textColor="#FFEE84"
+            android:fontFamily="serif-monospace"
+            android:title="About" />
+
+
+
+        <item android:title="Records"
+            android:icon="@mipmap/scores"
+            >
+            <menu>
+                <item
+                    android:id="@+id/nav_easy"
+                    android:icon="@mipmap/easyb"
+                    android:title="Easy" />
+                <item
+                    android:id="@+id/nav_normal"
+                    android:icon="@mipmap/normalb"
+                    android:title="Normal" />
+                <item
+                    android:id="@+id/nav_hard"
+                    android:icon="@mipmap/drah"
+                    android:title="Hard" />
+                <item
+                    android:id="@+id/nav_statistical_report"
+                    android:icon="@mipmap/lamron"
+                    android:title="Statistical" />
+
+
+            </menu>
+        </item>
+
+
+
+
+
+
+
+
+    </group>
+
+
+</menu>

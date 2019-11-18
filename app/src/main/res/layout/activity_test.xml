@@ -1,0 +1,777 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_marginTop="4dp"
+    tools:context=".Test">
+    <TextView
+        android:paddingTop="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="serif-monospace"
+
+        android:gravity="center"
+        android:text="Statistical Note Progress"
+        android:textColor="#FFEE84"
+
+        android:textSize="30dp"
+        android:textStyle="bold" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:layout_marginLeft="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:background="@mipmap/xylophonenote"/>
+
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+    <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+        android:layout_marginLeft="1dp"
+        android:gravity="">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1.  A5  = "
+        android:textStyle="bold"
+        android:textColor="#FFEE84"
+        android:textSize="15dp"
+        android:fontFamily="serif-monospace"
+        android:paddingBottom="1dp"
+
+
+
+        />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif-monospace"
+            android:paddingBottom="1dp"
+            android:text="2.  B5  = "
+            android:textColor="#FFEE84"
+            android:textSize="15dp"
+            android:textStyle="bold"
+
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3.  C6  = "
+            android:textStyle="bold"
+            android:textColor="#FFEE84"
+            android:textSize="15dp"
+            android:fontFamily="serif-monospace"
+            android:paddingBottom="1dp"
+
+
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4.  D6  = "
+            android:textStyle="bold"
+            android:textColor="#FFEE84"
+            android:textSize="15dp"
+            android:fontFamily="serif-monospace"
+            android:paddingBottom="1dp"
+
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5.  E6  = "
+            android:textStyle="bold"
+            android:textColor="#FFEE84"
+            android:textSize="15dp"
+            android:fontFamily="serif-monospace"
+            android:paddingBottom="1dp"
+
+
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6.  F6  = "
+            android:textStyle="bold"
+            android:textColor="#FFEE84"
+            android:textSize="15dp"
+            android:fontFamily="serif-monospace"
+            android:paddingBottom="1dp"
+
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="7.  G6  = "
+            android:textStyle="bold"
+            android:textColor="#FFEE84"
+            android:textSize="15dp"
+            android:fontFamily="serif-monospace"
+            android:paddingBottom="1dp"
+
+
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="8.  A6  = "
+            android:textStyle="bold"
+            android:textColor="#FFEE84"
+            android:textSize="15dp"
+            android:fontFamily="serif-monospace"
+            android:paddingBottom="1dp"
+
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="9.  B6  = "
+            android:textStyle="bold"
+            android:textColor="#FFEE84"
+            android:textSize="15dp"
+            android:fontFamily="serif-monospace"
+            android:paddingBottom="1dp"
+
+
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10. C7  = "
+            android:textStyle="bold"
+            android:textColor="#FFEE84"
+            android:textSize="15dp"
+            android:fontFamily="serif-monospace"
+            android:paddingBottom="1dp"
+
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="11. D7  = "
+            android:textStyle="bold"
+            android:textColor="#FFEE84"
+            android:textSize="15dp"
+            android:fontFamily="serif-monospace"
+            android:paddingBottom="1dp"
+
+
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="12. E7  = "
+            android:textStyle="bold"
+            android:textColor="#FFEE84"
+            android:textSize="15dp"
+            android:fontFamily="serif-monospace"
+            android:paddingBottom="1dp"
+
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="13. F7  = "
+            android:textStyle="bold"
+            android:textColor="#FFEE84"
+            android:textSize="15dp"
+            android:fontFamily="serif-monospace"
+            android:paddingBottom="1dp"
+
+
+            />
+
+
+</LinearLayout>
+    <LinearLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:id="@+id/a5"
+            android:textStyle="bold"
+            android:textColor="#FFEE84"
+            android:textSize="15dp"
+            android:fontFamily="serif-monospace"
+            android:paddingBottom="1dp"
+
+
+
+            />
+
+        <TextView
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textStyle="bold"
+            android:textColor="#FFEE84"
+            android:textSize="15dp"
+            android:id="@+id/b5"
+            android:fontFamily="serif-monospace"
+            android:paddingBottom="1dp"
+
+
+            />
+
+        <TextView
+            android:id="@+id/c6"
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif-monospace"
+            android:paddingBottom="1dp"
+            android:text="0"
+            android:textColor="#FFEE84"
+            android:textSize="15dp"
+            android:textStyle="bold"
+
+
+            />
+
+        <TextView
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:id="@+id/d6"
+            android:textStyle="bold"
+            android:textColor="#FFEE84"
+            android:textSize="15dp"
+            android:fontFamily="serif-monospace"
+            android:paddingBottom="1dp"
+
+
+            />
+        <TextView
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:id="@+id/e6"
+            android:textStyle="bold"
+            android:textColor="#FFEE84"
+            android:textSize="15dp"
+            android:fontFamily="serif-monospace"
+            android:paddingBottom="1dp"
+
+
+
+            />
+
+        <TextView
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:id="@+id/f6"
+            android:textStyle="bold"
+            android:textColor="#FFEE84"
+            android:textSize="15dp"
+            android:fontFamily="serif-monospace"
+            android:paddingBottom="1dp"
+
+
+            />
+        <TextView
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:id="@+id/g6"
+            android:textStyle="bold"
+            android:textColor="#FFEE84"
+            android:textSize="15dp"
+            android:fontFamily="serif-monospace"
+            android:paddingBottom="1dp"
+
+
+
+            />
+
+        <TextView
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:id="@+id/a6"
+            android:textStyle="bold"
+            android:textColor="#FFEE84"
+            android:textSize="15dp"
+            android:fontFamily="serif-monospace"
+            android:paddingBottom="1dp"
+
+
+            />
+        <TextView
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:id="@+id/b6"
+            android:textStyle="bold"
+            android:textColor="#FFEE84"
+            android:textSize="15dp"
+            android:fontFamily="serif-monospace"
+            android:paddingBottom="1dp"
+
+
+
+            />
+
+        <TextView
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:id="@+id/c7"
+            android:textStyle="bold"
+            android:textColor="#FFEE84"
+            android:textSize="15dp"
+            android:fontFamily="serif-monospace"
+            android:paddingBottom="1dp"
+
+
+            />
+        <TextView
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:id="@+id/d7"
+            android:textStyle="bold"
+            android:textColor="#FFEE84"
+            android:textSize="15dp"
+            android:fontFamily="serif-monospace"
+            android:paddingBottom="1dp"
+
+
+
+            />
+
+        <TextView
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:id="@+id/e7"
+            android:textStyle="bold"
+            android:textColor="#FFEE84"
+            android:textSize="15dp"
+            android:fontFamily="serif-monospace"
+            android:paddingBottom="1dp"
+
+
+            />
+
+        <TextView
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:id="@+id/f7"
+            android:textStyle="bold"
+            android:textColor="#FFEE84"
+            android:textSize="15dp"
+            android:fontFamily="serif-monospace"
+            android:paddingBottom="1dp"
+
+
+            />
+
+
+        </LinearLayout>
+        <LinearLayout
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="12dp"
+            android:gravity="">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="14. G7   = "
+                android:textStyle="bold"
+                android:textColor="#FFEE84"
+                android:textSize="15dp"
+                android:fontFamily="serif-monospace"
+                android:paddingBottom="1dp"
+
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="15. A7   = "
+                android:textStyle="bold"
+                android:textColor="#FFEE84"
+                android:textSize="15dp"
+                android:fontFamily="serif-monospace"
+                android:paddingBottom="1dp"
+
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="16. A#5  = "
+                android:textStyle="bold"
+                android:textColor="#FFEE84"
+                android:textSize="15dp"
+                android:fontFamily="serif-monospace"
+                android:paddingBottom="1dp"
+
+
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif-monospace"
+                android:paddingBottom="1dp"
+                android:text="17. C#6  = "
+                android:textColor="#FFEE84"
+                android:textSize="15dp"
+                android:textStyle="bold"
+
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="18. D#6  = "
+                android:textStyle="bold"
+                android:textColor="#FFEE84"
+                android:textSize="15dp"
+                android:fontFamily="serif-monospace"
+                android:paddingBottom="1dp"
+
+
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="19. F#6  = "
+                android:textStyle="bold"
+                android:textColor="#FFEE84"
+                android:textSize="15dp"
+                android:fontFamily="serif-monospace"
+                android:paddingBottom="1dp"
+
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="20. G#6  = "
+                android:textStyle="bold"
+                android:textColor="#FFEE84"
+                android:textSize="15dp"
+                android:fontFamily="serif-monospace"
+                android:paddingBottom="1dp"
+
+
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="21. A#6  = "
+                android:textStyle="bold"
+                android:textColor="#FFEE84"
+                android:textSize="15dp"
+                android:fontFamily="serif-monospace"
+                android:paddingBottom="1dp"
+
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="22. C#7  = "
+                android:textStyle="bold"
+                android:textColor="#FFEE84"
+                android:textSize="15dp"
+                android:fontFamily="serif-monospace"
+                android:paddingBottom="1dp"
+
+
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="23. D#7  = "
+                android:textStyle="bold"
+                android:textColor="#FFEE84"
+                android:textSize="15dp"
+                android:fontFamily="serif-monospace"
+                android:paddingBottom="1dp"
+
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="24. F#7  = "
+                android:textStyle="bold"
+                android:textColor="#FFEE84"
+                android:textSize="15dp"
+                android:fontFamily="serif-monospace"
+                android:paddingBottom="1dp"
+
+
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="25. G#7  = "
+                android:textStyle="bold"
+                android:textColor="#FFEE84"
+                android:textSize="15dp"
+                android:fontFamily="serif-monospace"
+                android:paddingBottom="1dp"
+
+
+                />
+
+
+
+        </LinearLayout>
+        <LinearLayout
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="45dp"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:id="@+id/g7"
+                android:textStyle="bold"
+                android:textColor="#FFEE84"
+                android:textSize="15dp"
+                android:fontFamily="serif-monospace"
+                android:paddingBottom="1dp"
+
+
+                />
+
+            <TextView
+                android:layout_width="45dp"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textStyle="bold"
+                android:textColor="#FFEE84"
+                android:textSize="15dp"
+                android:id="@+id/a7"
+                android:fontFamily="serif-monospace"
+                android:paddingBottom="1dp"
+
+
+                />
+
+            <TextView
+                android:layout_width="45dp"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:id="@+id/asharp5"
+                android:textStyle="bold"
+                android:textColor="#FFEE84"
+                android:textSize="15dp"
+                android:fontFamily="serif-monospace"
+                android:paddingBottom="1dp"
+
+
+
+                />
+
+            <TextView
+                android:layout_width="45dp"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textStyle="bold"
+                android:textColor="#FFEE84"
+                android:textSize="15dp"
+                android:id="@+id/csharp6"
+                android:fontFamily="serif-monospace"
+                android:paddingBottom="1dp"
+
+
+                />
+
+            <TextView
+                android:id="@+id/dsharp6"
+                android:layout_width="45dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif-monospace"
+                android:paddingBottom="1dp"
+                android:text="0"
+                android:textColor="#FFEE84"
+                android:textSize="15dp"
+                android:textStyle="bold"
+
+
+                />
+
+            <TextView
+                android:layout_width="45dp"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:id="@+id/fsharp6"
+                android:textStyle="bold"
+                android:textColor="#FFEE84"
+                android:textSize="15dp"
+                android:fontFamily="serif-monospace"
+                android:paddingBottom="1dp"
+
+
+                />
+            <TextView
+                android:layout_width="45dp"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:id="@+id/gsharp6"
+                android:textStyle="bold"
+                android:textColor="#FFEE84"
+                android:textSize="15dp"
+                android:fontFamily="serif-monospace"
+                android:paddingBottom="1dp"
+
+
+
+                />
+
+            <TextView
+                android:layout_width="45dp"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:id="@+id/asharp6"
+                android:textStyle="bold"
+                android:textColor="#FFEE84"
+                android:textSize="15dp"
+                android:fontFamily="serif-monospace"
+                android:paddingBottom="1dp"
+
+
+                />
+            <TextView
+                android:layout_width="45dp"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:id="@+id/csharp7"
+                android:textStyle="bold"
+                android:textColor="#FFEE84"
+                android:textSize="15dp"
+                android:fontFamily="serif-monospace"
+                android:paddingBottom="1dp"
+
+
+
+                />
+
+            <TextView
+                android:layout_width="45dp"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:id="@+id/dsharp7"
+                android:textStyle="bold"
+                android:textColor="#FFEE84"
+                android:textSize="15dp"
+                android:fontFamily="serif-monospace"
+                android:paddingBottom="1dp"
+
+
+                />
+            <TextView
+                android:layout_width="45dp"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:id="@+id/fsharp7"
+                android:textStyle="bold"
+                android:textColor="#FFEE84"
+                android:textSize="15dp"
+                android:fontFamily="serif-monospace"
+                android:paddingBottom="1dp"
+
+
+
+                />
+
+            <TextView
+                android:layout_width="45dp"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:id="@+id/gsharp7"
+                android:textStyle="bold"
+                android:textColor="#FFEE84"
+                android:textSize="15dp"
+                android:fontFamily="serif-monospace"
+                android:paddingBottom="1dp"
+
+
+                />
+
+        </LinearLayout>
+        </LinearLayout>
+
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="25dp"
+        android:textStyle="bold"
+android:id="@+id/play"
+        android:layout_gravity="center"
+        android:textColor="#FFEE84"
+        android:background="@drawable/round"
+        android:fontFamily="serif-monospace"
+android:layout_marginTop="4dp"
+        android:text="Play"
+        />
+
+</LinearLayout>

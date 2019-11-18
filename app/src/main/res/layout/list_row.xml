@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="5dip" >
+    <TextView
+        android:id="@+id/tittlescore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sample"
+        android:fontFamily="serif-monospace"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:textSize="20dp" />
+    <TextView
+        android:paddingTop="3dp"
+        android:id="@+id/remarksscore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tittlescore"
+        android:text="Exellent"
+        android:textStyle="italic"
+        android:textColor="#FFEE84"
+        android:fontFamily="serif-monospace"
+        android:layout_marginTop="7dp"
+        android:textSize="17dp" />
+    <TextView
+        android:id="@+id/percentagescore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_alignBaseline="@+id/remarksscore"
+        android:layout_alignBottom="@+id/remarksscore"
+        android:layout_alignParentRight="true"
+
+        android:text="100%"
+        android:textColor="#FFEE84"
+        android:fontFamily="serif-monospace"
+        android:layout_marginTop="7dp"
+        android:textSize="40dp"
+        />
+</RelativeLayout>

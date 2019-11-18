@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".easy_chooser">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+
+        android:paddingRight="8dp">
+        <ImageButton
+            android:id="@+id/normalhome"
+            android:layout_width="47dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="20dp"
+            android:background="@mipmap/home"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingLeft="8dp"
+            android:text="NORMAL MODE"
+            android:textStyle="bold"
+            android:textColor="#FFEE84"
+            android:textSize="30dp"
+            android:fontFamily="serif-monospace"
+            android:paddingBottom="1dp"
+            />
+
+
+</LinearLayout>
+
+
+
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+
+            >
+
+            <ImageButton
+                android:layout_width="130dp"
+                android:layout_marginTop="20dp"
+                android:layout_height="130dp"
+                android:id="@+id/akoaymaylobo"
+                android:background="@mipmap/normal_ako_ay_may_lobo"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:fontFamily="serif-monospace"
+
+                android:textColor="#F2F2F2"
+
+                android:text="   Ako ay May\n      lobo"/>
+            <ImageButton
+                android:layout_width="130dp"
+                android:layout_marginTop="20dp"
+                android:layout_height="130dp"
+                android:id="@+id/leronleronsinta"
+                android:background="@mipmap/normal_leronleronsinta"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:fontFamily="serif-monospace"
+
+                android:textColor="#F2F2F2"
+
+                android:text="  Leron Leron  \n     Sinta"/>
+
+
+
+            <ImageButton
+                android:layout_width="130dp"
+                android:layout_marginTop="20dp"
+                android:layout_height="130dp"
+                android:id="@+id/oldmcdonald"
+                android:background="@mipmap/normal_oneday"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:fontFamily="serif-monospace"
+
+                android:textColor="#F2F2F2"
+
+                android:text="    One Day"/>
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="15dp">
+
+            <ImageButton
+                android:layout_width="130dp"
+                android:layout_marginTop="20dp"
+                android:layout_height="130dp"
+                android:id="@+id/marryhadalittlelamb"
+                android:background="@mipmap/normal_marry_had_a_little_lamb"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:fontFamily="serif-monospace"
+
+                android:textColor="#F2F2F2"
+
+                android:text="  Marry had a \n  little lamb"/>
+
+
+            <ImageButton
+                android:layout_width="130dp"
+                android:layout_marginTop="20dp"
+                android:layout_height="130dp"
+                android:id="@+id/londonbridge"
+                android:background="@mipmap/normal_tulay"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:fontFamily="serif-monospace"
+
+                android:textColor="#F2F2F2"
+
+                android:text="    London \n    Bridge"/>
+
+            />
+
+            <ImageButton
+                android:layout_width="130dp"
+                android:layout_marginTop="20dp"
+                android:layout_height="130dp"
+                android:id="@+id/mrbean"
+                android:background="@mipmap/normal_mr_bean"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:fontFamily="serif-monospace"
+
+                android:textColor="#F2F2F2"
+
+                android:text="    Mr. Bean"/>
+
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>

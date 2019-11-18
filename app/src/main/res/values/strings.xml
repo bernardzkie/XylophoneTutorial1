@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Xylophone Tutorial</string>
+    <string name="title_activity_menu">Start Game Play</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="title_activity_history">History</string>
+    <string name="large_text">
+
+
+        "\t The xylophone is an ancient instrument that originated independently in Africa and Asia. Wooden bars were originally seated on a series of hollow gourds, and the gourds generated the resonating notes that are produced on modern instruments by metal tubes. For centuries, xylophone makers struggled with methods of tuning the wooden bars. Old methods consisted of arranging the bars on tied bundles of straw, and, as still practiced today, placing the bars adjacent to each other in a ladder-like layout. Ancient mallets were made of willow wood with spoon-like bowls on the beaten ends \n \n."
+"\t African xylophonists had the widest variety of instruments, including some that were plucked instead of hammered and lightweight instruments that were suspended on a rope around the player's neck. They used wooden boxes for resonators as well as clay pots in Nigeria and pits in the ground in Kenya and Central and West Africa. They inserted membranes between the bars and resonators to give the instrument a buzzing sound; these membranes were made of spider cocoons or cigarette papers. In southeastern Africa, the Chopi people play xylophones in groups of as many as six instruments of different sizes and ranges. \n \n"
+
+        "\t In the seventeenth century, African instrumentalists took the xylophone with them to Central America where it was modified and became known as the marimba. The marimba remains popular throughout Mexico and Central America and is considered the national instrument of Guatemala. The Africans who were responsible for the instrument's migration also developed an effective method of tuning it. They carved a gentle arch on the underside of each bar and simply continued carving until the bar was tuned accurately. This arch is called an arcuate notch and is the key to the tunefulness of the xylophone, marimba, and all other members of the xylophone family.\n \n "
+"Raw Materials \n"
+        "\t The materials needed to make an orchestral quality xylophone begin with rosewood for the bars. Some teaching instruments for schools are made with keys fabricated from synthetic materials, but a true xylophone must have rosewood keys. Resonators are made from aluminum tubing that is also acquired in bulk from a specialty metal fabricator. Cords or pads of felt, synthetic, rubber, wood, or other materials support the keys at the nodal points where they rest on the frame over the resonators. \n \n"
+         "\t The frame itself may be constructed of metal or any wood, depending on the preferences of the customer and the manufacturer for the finished appearance of the instrument. Xylophones for high school and college marching \n \n"
+         "\t bands take tremendous abuse as they are transported from location to location, so the frame may be constructed of particle board that is easily replaced, patched, or painted if damaged. Instruments used by professional percussionists are usually crafted with frames of fine wood that are finished by skilled craftsmen. The frames, however, are still simple and unomamented, unlike other wooden instruments. Stains and varnishes are used to finish the wood. \n \n"
+"The Manufacturing Process \n"
+         "\t 1. Construction of a xylophone begins with a design drawing. Xylophone manufacture is based on traditional designs with little variation, so the design process is limited to selecting the size or range of the xylophone and the finish of the frame. \n \n"
+"\t 2. osewood for the keys is purchased in bulk. Sections long enough to produce several keys are cut and the wood is stored and aged for approximately two years before the keys are cut. The xylophone bars or keys are cut to lengths ranging from long keys for the low notes to shorter keys for the higher notes. The keys are a standard width of 1.5 in (3.8 cm) and a thickness of 1 in (2.5 cm). Holes are drilled at the support ends where the keys will be fitted to the nodes. The craftsman must then carve out the arcuate notch, the gentle arch on the underside of the key that provides accurate pitch. He does this in a series of cautious steps—carving to rough tune, checking the pitch, carving to truer tune, checking the pitch, carving to final tune, and confirming the pitch. After final tuning, the bar is gently sanded. When all the bars are tuned, they are polished, stained, and varnished. Choice of the color of stain is made by the customer and manufacturer. \n \n"
+"\t 3. Aluminum tubular resonators are made from tubing purchased from a metal fabricator. The tubes must be well made with uniform circumferences and smooth finishes that will not detract from the sound quality. The tubes are cut to lengths that depend more on the finished appearance of the xylophone. Usually, the bottom ends of the tubes have a tapered length with longer tubes at the bass end and shorter tubes toward the higher end of the range, or an arched effect from one end to the other. The length of the tubes does not matter for sound production because the tubes are stopped inside like organ pipes. The closing piece is added near the lower end once the tube has been tuned to its bar. \n \n"
+"\t 4. The frame is constructed as a separate operation while the keys and tubes are being cut and tuned. The outer perimeter underneath the keys is usually made of quality wood that is finished to match the color of the keys. Legs or supports are made of wood or metal and are bolted to the frame. The feet touching the floor are fitted with castors that can be locked so the xylophone won't move as its being played or with rubber or synthetic feet. \n \n"
+"\t 5. When the bars are complete, each one is test-fitted over its resonator and the resonator is tuned by inserting the stop. The bars are then fitted over the nodal points and screwed into place with standard wood screws. The tubes are riveted together and suspended on the frame. \n \n"
+"\t 6. Each mallet or beater consists of two parts, the stick and the head. The stick is made of bamboo, rattan, birch, or fiberglass. The spherical heads or ends are made of hard rubber or plastic with an internal core of cord that is wound much like the inside of a golf ball. Heads made for xylophone and marimba mallets are also woven of tightly wrapped wool. Xylophone players use three varieties of mallets constructed with different combinations of stick and head to produce a wider variety of sound. Players choose the beaters based on the music they are playing, the sound of their instrument, and their own wrist strength and technique. \n \n"
+
+    </string>
+</resources>
